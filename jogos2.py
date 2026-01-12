@@ -13,14 +13,11 @@ def iniciar_menu():
 
     if(escolha_jogo == 1):
         print('Você escolheu o jogo da Adivinhação!')
-        adivinhacao2.main()
+        adivinhacao2.jogar()
+        iniciar_menu()
     elif(escolha_jogo == 2):
         forca.jogar()
-
-def main():
-    iniciar_menu()
-
-main()
+        iniciar_menu()
 
 if(__name__ == '__main__'):
-    main()
+    iniciar_menu()
