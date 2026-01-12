@@ -34,10 +34,14 @@ def jogar():
         else:
             imprime_mensagem_perdedor(palavra_secreta)
 
-        voltar = input('Digite 1 para jogar novamente ou 2 para voltar ao menu: ')
-        if voltar != '1':
-            jogando = False
-            
+        for i in range:
+            voltar = input('Digite 1 para jogar novamente ou 2 para voltar ao menu: ')
+            if voltar == '1':
+                jogando = True
+            elif voltar == '2':
+                jogando = False
+            else:
+                print('Digite uma opção válida')
 
 def desenha_forca(erros):
     print("  _______     ")
