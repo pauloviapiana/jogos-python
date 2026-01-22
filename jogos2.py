@@ -1,5 +1,5 @@
 import adivinhacao2
-import forca
+import forca2
 
 def iniciar_menu():
     print('***************************')
@@ -16,7 +16,7 @@ def iniciar_menu():
         adivinhacao2.jogar()
         iniciar_menu()
     elif(escolha_jogo == 2):
-        forca.jogar()
+        forca2.jogar()
         iniciar_menu()
 
 if(__name__ == '__main__'):
