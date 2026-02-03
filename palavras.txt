@@ -1,4 +1,9 @@
-banana
-melancia
-morango
-maça
+Morango
+Melao
+Mamao
+Uva
+Melancia
+Maça
+Banana
+Laranja
+Abacaxi
